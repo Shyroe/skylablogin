@@ -1,3 +1,6 @@
+import React from "react";
+import ThemeContainer from "../contexts/theme/ThemeContainer";
+
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeContainer>
